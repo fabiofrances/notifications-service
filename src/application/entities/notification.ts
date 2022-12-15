@@ -9,7 +9,7 @@ export interface NotificationProps {
   createAt: Date;
 }
 
-export class Notifications {
+export class Notification {
   private props: NotificationProps;
 
   constructor(props: Replace<NotificationProps, { createAt?: Date }>) {
